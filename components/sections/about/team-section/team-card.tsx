@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { LinkedIn } from "lucide-react"
+import { Linkedin } from "lucide-react"
 import { itemVariants } from "./variants"
 import type { TeamMember } from "./types"
 
@@ -32,7 +32,7 @@ export function TeamCard({ member }: TeamCardProps) {
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center gap-2 text-primary hover:text-primary/80"
           >
-            <LinkedIn className="h-5 w-5" />
+            <Linkedin className="h-5 w-5" />
             <span>Connect on LinkedIn</span>
           </a>
         </CardContent>
