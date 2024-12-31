@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { RoleCard } from "./role-card"
-import { roles } from "./data"
+import {roles} from "./data"
 import { containerVariants } from "../animations/variants"
 
 export function KeyRolesSection() {

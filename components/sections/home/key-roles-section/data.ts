@@ -1,7 +1,7 @@
 import { Shield, Heart, TrendingUp, Lightbulb, Microscope, Globe } from "lucide-react"
 import type { Role } from "./types"
 
-const roles = [
+export const roles = [
   {
     icon: Shield,
     title: "Disease Prevention & Control",
