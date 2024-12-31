@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Shield, Heart, TrendingUp, Lightbulb, Microscope } from "lucide-react"
+import { Shield, Heart, TrendingUp, Lightbulb, Microscope, Globe } from "lucide-react"
 
 const roles = [
   {
@@ -26,8 +26,14 @@ const roles = [
     icon: Microscope,
     title: "Technological Advancements",
     description: "Pioneering healthcare technology for advanced medical solutions."
+  },
+  {
+    icon: Globe,
+    title: "Global Health Equity",
+    description: "Promoting equal access to healthcare resources and services worldwide."
   }
-]
+];
+
 
 export function KeyRolesSection() {
   return (

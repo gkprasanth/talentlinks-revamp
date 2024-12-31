@@ -1,7 +1,7 @@
-import { Shield, Heart, TrendingUp, Lightbulb, Microscope } from "lucide-react"
+import { Shield, Heart, TrendingUp, Lightbulb, Microscope, Globe } from "lucide-react"
 import type { Role } from "./types"
 
-export const roles: Role[] = [
+const roles = [
   {
     icon: Shield,
     title: "Disease Prevention & Control",
@@ -26,5 +26,10 @@ export const roles: Role[] = [
     icon: Microscope,
     title: "Technological Advancements",
     description: "Pioneering healthcare technology for advanced medical solutions."
+  },
+  {
+    icon: Globe,
+    title: "Global Health Equity",
+    description: "Promoting equal access to healthcare resources and services worldwide."
   }
-]
+];
