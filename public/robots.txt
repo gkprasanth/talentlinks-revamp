@@ -1,0 +1,24 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://talentlinks.in/sitemap.xml
+
+# Prevent crawling of specific paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /draft/
+
+# Allow crawling of important sections
+Allow: /services/
+Allow: /industries/
+Allow: /locations/
+Allow: /resources/
+Allow: /about/
+Allow: /contact/
+
+# Crawl-delay for better server performance
+Crawl-delay: 10

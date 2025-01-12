@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Main colors - Medical blue theme */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    
+    /* Card and UI elements */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    
+    /* Primary - Medical blue */
+    --primary: 201 96% 32%;
+    --primary-foreground: 210 40% 98%;
+    
+    /* Secondary - Soft blue-gray */
+    --secondary: 199 32% 95%;
+    --secondary-foreground: 201 96% 32%;
+    
+    /* Muted - Light gray with blue tint */
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 16% 47%;
+    
+    /* Accent - Complementary blue */
+    --accent: 199 32% 90%;
+    --accent-foreground: 201 96% 32%;
+    
+    /* Destructive/Error - Muted red */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    
+    /* Borders and inputs */
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 201 96% 32%;
+    
+    /* Border radius */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark mode - Darker medical blue theme */
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    
+    /* Card and UI elements */
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    
+    /* Primary - Brighter medical blue */
+    --primary: 199 89% 48%;
+    --primary-foreground: 222 47% 11%;
+    
+    /* Secondary - Darker blue-gray */
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 98%;
+    
+    /* Muted - Dark gray with blue tint */
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    /* Accent - Darker complementary blue */
+    --accent: 217 32% 17%;
+    --accent-foreground: 210 40% 98%;
+    
+    /* Destructive/Error - Brighter red */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    
+    /* Borders and inputs */
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 199 89% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+section {
+  @apply w-full py-12 md:py-16 lg:py-20;
+}

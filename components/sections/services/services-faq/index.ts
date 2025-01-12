@@ -1,0 +1,1 @@
+export { ServicesFAQ } from './services-faq'
