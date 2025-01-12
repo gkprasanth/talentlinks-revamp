@@ -25,7 +25,7 @@ export const navigationLinks: NavigationItem[] = [
       { name: "Manufacturing", href: "/industries/manufacturing" },
       { name: "BFSI", href: "/industries/bfsi" },
       { name: "Healthcare", href: "/industries/healthcare" },
-      { name: "E-commerce", href: "/industries/e-commerce" }
+      // { name: "E-commerce", href: "/industries/e-commerce" }
     ]
   },
   // {
