@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Stethoscope, Flask, Code, Microscope, Brain, Shield } from "lucide-react"
+import { Stethoscope, FlaskConical , Code, Microscope, Brain, Shield } from "lucide-react"
 
 const roles = [
   {
@@ -8,7 +8,7 @@ const roles = [
     positions: ["Physicians", "Nurses", "Specialists", "Surgeons"]
   },
   {
-    icon: Flask,
+    icon: FlaskConical ,
     title: "Research & Development",
     positions: ["Clinical Researchers", "Lab Directors", "Research Scientists", "Biostatisticians"]
   },

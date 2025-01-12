@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Search, Users, Briefcase, UserCheck, Target, Diversity } from "lucide-react"
+import { Search, Users, Briefcase, UserCheck, Target } from "lucide-react"
+import { MdDiversity1 } from "react-icons/md";
 import Link from "next/link"
 
 const services = [
@@ -37,7 +38,7 @@ const services = [
     href: "/services/niche-recruitment"
   },
   {
-    icon: Diversity,
+    icon: MdDiversity1,
     title: "Diversity Hiring",
     description: "Inclusive recruitment strategies promoting workplace diversity.",
     href: "/services/diversity-hiring"

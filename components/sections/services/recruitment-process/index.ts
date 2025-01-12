@@ -1,1 +1,0 @@
-export { RecruitmentProcess } from './recruitment-process'
