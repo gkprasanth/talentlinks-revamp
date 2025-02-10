@@ -26,11 +26,11 @@ export function Footer() {
                 Services
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/careers" className="text-muted-foreground hover:text-foreground">
                 Careers
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/contact" className="text-muted-foreground hover:text-foreground">
                 Contact

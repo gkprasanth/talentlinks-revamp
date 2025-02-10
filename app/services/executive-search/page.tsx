@@ -7,6 +7,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Search, Target, Users, FileCheck, Handshake, Award, BarChart, Building2, BrainCircuit } from "lucide-react"
 
+import manufactImg from "@/public/images/manufacturing.avif"
+
 const industries = [
   {
     title: "Technology",
@@ -16,7 +18,7 @@ const industries = [
   {
     title: "Manufacturing",
     roles: ["Chief Operations Officer", "Plant Head", "VP Manufacturing", "Director Operations"],
-    image: "https://images.unsplash.com/photo-1581091226825-c6a89e7e4801?auto=format&fit=crop&q=80"
+    image: manufactImg
   },
   {
     title: "BFSI",

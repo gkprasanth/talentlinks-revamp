@@ -5,22 +5,22 @@ const contactDetails = [
   {
     icon: MapPin,
     title: "Address",
-    details: ["123 Business Avenue", "Suite 100", "New York, NY 10001"]
+    details: ["Flat no 506, Sri Lakshmi Sai towers,", "bagh ameeri,", "Kukatpally. 500072"]
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["contact@talentlinks.com", "support@talentlinks.com"]
+    details: ["recruiter@talentlinks.in", "recruiter.talentlinks@gmail.com"]
   },
   {
     icon: Phone,
     title: "Phone",
-    details: ["+1 (555) 123-4567", "+1 (555) 765-4321"]
+    details: ["+91 87920 77514"]
   },
   {
     icon: Clock,
     title: "Business Hours",
-    details: ["Monday - Friday", "9:00 AM - 6:00 PM EST"]
+    details: ["Monday - Friday", "9:00 AM - 6:00 PM IST"]
   }
 ]
 

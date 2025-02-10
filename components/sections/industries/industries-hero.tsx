@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import manuFact from "@/public/images/industry-manufacturing.jpg"
 
 export function IndustriesHero() {
   return (
     <section className="relative overflow-hidden">
       <Image
-        src="https://images.unsplash.com/photo-1581093458791-9d58e59c3e3d?auto=format&fit=crop&q=80"
+        src= {manuFact}
         alt="Modern healthcare facility"
         fill
         className="object-cover opacity-20"

@@ -14,7 +14,7 @@ export default function AboutPage() {
     <div className="flex flex-col gap-12 md:gap-16 lg:gap-20">
       <AboutHero />
       <WhyChooseUs />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <Testimonials />
     </div>
   )
