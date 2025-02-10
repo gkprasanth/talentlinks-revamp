@@ -105,9 +105,9 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://talentlinks.in',
+    canonical: 'https://www.talentlinks.in',
     languages: {
-      'en-IN': 'https://talentlinks.in',
+      'en-IN': 'https://www.talentlinks.in',
     },
   },
 }
